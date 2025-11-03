@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-Install Node.js `v24.11.0 (LTS)`:
+### Install Node.js `v24.11.0 (LTS)`:
 
 [Node.js](https://nodejs.org/en/download)
 
@@ -13,31 +13,38 @@ node -v
 npm -v
 ```
 
-If you run this in VS Code Terminal and get an error, allow PowerShell to run npm:
+### If you run this in VS Code Terminal and get an error, allow PowerShell to run npm:
 In PowerShell running as Administrator, run:
 
-```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser``` 
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+``` 
 
-then type
+then type `Y` and try again.
 
-```Y```
-
-and try again:  
+### Install `pnpm` because it's faster and more efficient:
 
 ```
-node -v
-npm -v
+npm install -g pnpm
 ```
-
-Install `pnpm` because it's faster and more efficient:
-
-```npm install -g pnpm```
 
 Then verify install using:
 
-```pnpm -v``` 
+```
+pnpm -v
+``` 
 
-Inside the repository folder, run the development server:
+### Opt-out of anonymous telemetry collection!!!
+
+Run:
+
+```
+npx next telemetry disable
+# or
+pnpm exec next telemetry disable
+```
+
+### Inside the repository folder, run the development server:
 
 ```bash
 npm run dev
