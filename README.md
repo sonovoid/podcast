@@ -2,16 +2,37 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+Install Node.js `v24.11.0 (LTS)`:
+
+https://nodejs.org/en/download
+
+After install, open PowerShell or Command Prompt and verify:
+
+```
+node -v
+npm -v
+```
+
+If you run this in VS Code Terminal and get an error, allow PowerShell to run npm:
+In PowerShell running as Administrator, run:
+
+`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` then type `Y` and try again:  
+
+```
+node -v
+npm -v
+```
+
+Install `pnpm` because it's faster and more efficient:
+
+`npm install -g pnpm` then verify install with `pnpm -v` 
+
+Run the development server:
 
 ```bash
 npm run dev
 # or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
