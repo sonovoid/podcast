@@ -4,7 +4,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ### Install Node.js `v24.11.0 (LTS)`:
 
-[Node.js](https://nodejs.org/en/download)
+[Node.js Download Link](https://nodejs.org/en/download)
+
+<img width="421" height="340" alt="image" src="https://github.com/user-attachments/assets/4e07e54b-be93-4000-a894-b04d2e194d9c" />
 
 After install, open PowerShell or Command Prompt and verify:
 
