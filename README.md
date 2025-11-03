@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 Install Node.js `v24.11.0 (LTS)`:
 
-https://nodejs.org/en/download
+[Node.js](https://nodejs.org/en/download)
 
 After install, open PowerShell or Command Prompt and verify:
 
@@ -16,7 +16,13 @@ npm -v
 If you run this in VS Code Terminal and get an error, allow PowerShell to run npm:
 In PowerShell running as Administrator, run:
 
-`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser` then type `Y` and try again:  
+```Set-ExecutionPolicy RemoteSigned -Scope CurrentUser``` 
+
+then type
+
+```Y```
+
+and try again:  
 
 ```
 node -v
@@ -25,9 +31,13 @@ npm -v
 
 Install `pnpm` because it's faster and more efficient:
 
-`npm install -g pnpm` then verify install with `pnpm -v` 
+```npm install -g pnpm```
 
-Run the development server:
+Then verify install using:
+
+```pnpm -v``` 
+
+Inside the repository folder, run the development server:
 
 ```bash
 npm run dev
