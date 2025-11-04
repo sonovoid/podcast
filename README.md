@@ -4,7 +4,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ### Install Node.js `v24.11.0 (LTS)`:
 
-[Node.js](https://nodejs.org/en/download)
+[Node.js Download Link](https://nodejs.org/en/download)
+
+<img width="421" height="340" alt="image" src="https://github.com/user-attachments/assets/4e07e54b-be93-4000-a894-b04d2e194d9c" />
 
 After install, open PowerShell or Command Prompt and verify:
 
@@ -57,6 +59,16 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## VS Code Extensions
+
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for code linting / fixes
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for formatting
+[Prettier-ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) for formatting
+[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) for Tailwind autocomplete
+[Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) for DB schema highlighting + tools
+[Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) for API testing
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) for inline error display
 
 ## Learn More
 
