@@ -60,6 +60,16 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## VS Code Extensions
+
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for code linting / fixes
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for formatting
+[Prettier-ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint) for formatting
+[Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) for Tailwind autocomplete
+[Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma) for DB schema highlighting + tools
+[Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client) for API testing
+[Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) for inline error display
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
