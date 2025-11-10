@@ -39,6 +39,7 @@ pnpm -v
 ``` 
 
 ### Inside the repository folder, install the modules and dependencies:
+You might be required to restart Visual Studio Code or your IDE of preference.
 
 ```
 pnpm install
