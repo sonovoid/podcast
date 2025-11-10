@@ -38,7 +38,13 @@ Then verify install using:
 pnpm -v
 ``` 
 
-### Opt-out of anonymous telemetry collection!!!
+### Inside the repository folder, install the modules and dependencies:
+
+```
+pnpm install
+```
+
+### (Optional, but recommended) Opt-out of anonymous telemetry collection!!!
 
 Run:
 
@@ -51,8 +57,6 @@ pnpm exec next telemetry disable
 ### Inside the repository folder, run the development server:
 
 ```bash
-npm run dev
-# or
 pnpm dev
 ```
 
